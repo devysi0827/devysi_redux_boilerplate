@@ -1,27 +1,41 @@
-# vite-template-redux
+# Readme
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+### 실행
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
+```
+npm i
+npm run dev
 ```
 
-## Goals
+### 라이브러리
 
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
+```
+- react
+- vite && vitest
+- typescript && @types/react, react-dom, styled-components
+- react-router-dom
+- styled-components
+- axios
+```
 
-## Scripts
+### 미설치 라이브러리
 
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
+```
+- react-icons
+- http-proxy-middleware(local proxy)
+```
 
-## Inspiration
+### 프로젝트 관련 설정
+```
+- 절대경로 적용 (미적용)
+```
 
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+### 프로젝트 생성 시 해야하는 것 
+```
+- api_key 등록 (git에 안올라가서 매 번 갱신)
+```
+
+### To-do
+```
+- redux toolkit 사용법 파악하기
+```
